@@ -29,7 +29,8 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-li{
+
+li {
     list-style-type: none;
 }
 
@@ -67,7 +68,7 @@ nav {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background-color: black;
-    border: 3px solid #124C39;
+    border: 3px solid #ffffff;
     z-index: 1000;
 
 }
@@ -118,10 +119,11 @@ nav {
 
 /* MEDIA QUERIES  */
 @media (max-width: 300px) {
-.rutasEnlaces{
-    margin-top: 165px;
-}     
+    .rutasEnlaces {
+        margin-top: 165px;
+    }
 }
+
 /* CARRUSEL DE SERVICIOS  */
 
 .containerServicios {
@@ -146,4 +148,9 @@ nav {
 .itemServicios {
     background-color: aqua;
     cursor: pointer;
+}
+
+#formulario {
+    width: 90%;
+    margin: 0 auto;
 }

@@ -191,21 +191,22 @@
         </section>
 
         <!-- AGENDA UNA CITA  -->
+        <h2 style="color: white;" >Agenda una cita conmigo</h2>
         <section class="section">
             <form action="#" id="formulario">
-                <div class="mb-3">
-                    <label for="nombreCompleto" class="form-label">Tu nombre Completo</label>
-                    <input type="text" class="form-control" id="nombreCompleto" placeholder="Nombre Completo">
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Fecha</label>
-                    <input type="date" class="form-control" id="fecha" placeholder="fecha">
-                    <label for="email" class="form-label">Hora</label>
-                    <input type="datetime" class="form-control" id="hora" placeholder="hora">
-                </div>
-                <div class="col-12">
-                    <button class="btn btn-primary" type="submit" id="submit">Agendar Cita</button>
-                </div>
+                
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Nombre Completo">
+                    <label for="floatingInput">Nombre Completo</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="time" class="form-control" id="floatingTime" placeholder="Hora">
+                    <label for="floatingTime">Hora</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="date" class="form-control" id="floatingDate" placeholder="Fecha">
+                    <label for="floatingDate">Fecha</label>
+                  </div>
 
 
             </form>
