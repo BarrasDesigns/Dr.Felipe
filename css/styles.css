@@ -51,6 +51,7 @@ nav {
 
 .heroImage {
     max-width: 100%;
+    border-radius: 50%;
 }
 
 .objectfit {
@@ -72,7 +73,18 @@ nav {
     z-index: 1000;
 
 }
-
+@media (max-width: 428px) {
+    .objectfit{
+        margin-top: -20px;
+    }
+     
+}
+@media (min-width: 900px) {
+    .heroImage {
+        max-width: 58%;
+      }
+     
+}
 .tituloHeader {
     display: flex;
     flex-direction: column;
@@ -120,7 +132,7 @@ nav {
 /* MEDIA QUERIES  */
 @media (max-width: 300px) {
     .rutasEnlaces {
-        margin-top: 165px;
+        margin-top: 0px;
     }
 }
 
