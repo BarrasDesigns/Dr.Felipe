@@ -48,9 +48,9 @@ nav {
 }
 
 .hero {
-    width: 83%;
-  background: white;
-  margin: 0 auto;
+    width: 95%;
+    background: white;
+    margin: 0 auto;
 }
 
 .heroImage {
@@ -78,22 +78,26 @@ nav {
     margin: -22px;
 
 }
+
 @media (max-width: 428px) {
-    .objectfit{
+    .objectfit {
         margin-top: -20px;
     }
-    .objectfit>img{
+
+    .objectfit>img {
         margin: 8px;
     }
-     
-     
+
+
 }
+
 @media (min-width: 900px) {
     .heroImage {
         max-width: 58%;
-      }
-     
+    }
+
 }
+
 .tituloHeader {
     display: flex;
     flex-direction: column;
